@@ -1,0 +1,12 @@
+ben@vbox:~/Documents/CS-301/hworldmake$ make debug
+g++ -Wall -Wextra -std=c++26 -g -c helloworld.cpp -o helloworld.o
+g++ -Wall -Wextra -std=c++26 -g -c printhelloworld.cpp -o printhelloworld.o
+g++ -Wall -Wextra -std=c++26 -g -o helloworld helloworld.o printhelloworld.o
+Debug build complete
+ben@vbox:~/Documents/CS-301/hworldmake$ ./helloworld
+**** BEFORE VECTOR **** Hello C++ World from VS Code and the C++ extension!  **** AFTER VECTOR ****
+Goodbye!
+@@@ Hello Rams @@@
+@@@ Go CSU @@@
+Goodbye!
+**** BEFORE VECTOR **** Hello C++ World from VS Code and the C++ extension!  **** AFTER VECTOR ****
